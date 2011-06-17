@@ -10,4 +10,7 @@ set ruler
 set modeline
 filetype plugin indent on
 
+set listchars=tab:▸\ ,eol:¬
+nmap <leader>l :set list!<CR>
+
 " End .vimrc
