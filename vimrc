@@ -13,6 +13,9 @@ set ruler
 set modeline
 filetype plugin indent on
 
+" autoindent ruby with two spaces
+autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
+
 " Toggle showing invisibles with \l
 set listchars=tab:▸\ ,eol:¬
 nmap <leader>l :set list!<CR>
