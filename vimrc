@@ -5,6 +5,7 @@ call pathogen#helptags()
 " Set terminal to use 256 colors
 "set t_Co=256
 
+filetype off 
 set background=dark
 syntax on
 colorscheme solarized
